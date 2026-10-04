@@ -1,16 +1,75 @@
-# React + Vite
+# 🚀 StudySprint — Collaborative Study Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+![StudySprint Banner](https://img.shields.io/badge/Status-Live-success?style=for-the-badge) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
-Currently, two official plugins are available:
+**StudySprint** is a sleek, premium web application built for students to manage their coursework, deadlines, and daily study habits. It combines classic productivity techniques (like the Pomodoro method) with simulated AI-driven study planning and active recall flashcards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 **[Live Demo on GitHub Pages](https://MdFaisalDevops.github.io/hacktober-challenge1-app/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 📚 **Subjects & Tasks Manager**: Create courses with custom color tags and manage upcoming assignments and exams.
+- ⏱️ **Integrated Pomodoro Timer**: Stay focused using built-in timers for Study Sessions (25m), Short Breaks (5m), and Long Breaks (15m).
+- 🔥 **Daily Goals & Streaks**: Visualize your daily task progress and maintain a studying streak. 
+- 🤖 **AI Study Partner**: An intelligent simulated assistant that generates custom study schedules based on your upcoming exams.
+- 🧠 **Interactive Flashcards**: Practice active recall with sleek, 3D flipping flashcards auto-generated for your subjects.
+- 🎨 **Premium UI/UX**: Designed from the ground up using custom Vanilla CSS with deep dark mode aesthetics, glassmorphism, glowing gradients, and micro-animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: [React.js](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: Vanilla CSS (CSS Variables, Flexbox/Grid, Glassmorphism)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: GitHub Pages (`gh-pages`)
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally on your machine, follow these steps:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/MdFaisalDevops/hacktober-challenge1-app.git
+cd hacktober-challenge1-app
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:5173/` to see the application running.
+
+---
+
+## 📦 Deployment
+
+This project is configured to easily deploy to GitHub pages using the `gh-pages` npm package. 
+
+To deploy a new version to the live site:
+1. Commit your changes to the `main` branch.
+2. Run the deployment script:
+```bash
+npm run deploy
+```
+
+---
+
+## 🤝 Hacktoberfest 
+
+This project was built as a submission for the **Hacktoberfest Weekend Challenge: Build for a Friend**. It leverages open innovation and modern open-source frontend tooling to create a hyper-personalized, fully offline-capable study assistant.
+
+---
+
+Made with ❤️ and lots of coffee.
